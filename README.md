@@ -2,8 +2,8 @@
 this is my code content for python classes
 
 - [ ] Python Basics
-- Data Structures
-- Functions & Classes
+- [ ] Data Structures
+- [ ] Functions & Classes
 - Data Analytics
 - Data Visualisation
 - Computer Vision
