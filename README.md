@@ -9,4 +9,4 @@ this is my code content for python classes
 - Computer Vision
 - Mini project
 
-[ckeck out more](https://digipodium.com)
+[check out more](https://digipodium.com)
