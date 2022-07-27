@@ -11,8 +11,8 @@ for i in range(100):
     pencolor("red")
     fd(n)        
     rt(90)
-    pencolor("blue")
-    write('***', font=('arial',30,'normal'),align='center')
+    #pencolor("blue")
+    #write('***', font=('arial',30,'normal'),align='center')
     n=n+2
 mainloop()
 

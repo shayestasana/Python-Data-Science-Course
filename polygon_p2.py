@@ -1,6 +1,6 @@
 from turtle import *
 
-speed('fast')
+speed('slow')
 pencolor("red")
 bgcolor('white')
 pensize(10)       #Thickness of pen

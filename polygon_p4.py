@@ -3,7 +3,7 @@ from turtle import *
 pencolor('blue')
 pensize(3)
 fillcolor('red')
-speed('fastest')
+speed('fast')
 shape("turtle")
 for i in range(10,0,-1):
     begin_fill()
