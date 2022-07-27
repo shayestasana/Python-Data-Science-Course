@@ -1,12 +1,12 @@
 from turtle import *
 
 speed('fast')
-pencolor("red")
+pencolor("yellow")
 bgcolor('white')
 pensize(10)       #Thickness of pen
 side =4
 size=50
-fillcolor('red')
+fillcolor('green')
 begin_fill()       #beginning of color filling
 for i in range(side):
     fd(size)
