@@ -5,13 +5,13 @@ pencolor("yellow")
 bgcolor('white')
 pensize(3)
 
-for i in range(5):
+for i in range(6):
     fd(100)
-    for i in range(6):
+    for i in range(7):
         pencolor("red")
         fd(100)
         pencolor("yellow")
-        lt(360/6)
-    lt(360/5)
+        lt(360/7)
+    lt(360/6)
 
 mainloop()
