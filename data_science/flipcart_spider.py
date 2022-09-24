@@ -1,4 +1,4 @@
-from dputils import scrape
+#from dputils import scrape
 
 #step 1.  get the data as soup obj
 #step 2.  create the setup dictionaries  (most important)
@@ -9,7 +9,6 @@ from dputils import scrape
 # understanding the url:  after the question mark--> url parameters
 #url = 'https://www.flipkart.com/search?q=laptops&as=on&as-show=on&otracker=AS_Query_TrendingAutoSuggest_4_0_na_na_na&otracker1=AS_Query_TrendingAutoSuggest_4_0_na_na_na&as-pos=4&as-type=TRENDING&suggestionId=laptops&requestId=a3ccb2e9-70ce-4887-babe-e25f7474a665&page=7'
 #print(url.split('?')[-1].split('&'))
-
 
 
 
@@ -35,7 +34,7 @@ def getdata(q):
     while True:
         url = f'https://www.flipkart.com/search?q={q}&page={pos}'
         print(url)
-        soup = scrape.get_webpage_data(url)    #bewaqoof banane ke liye dusri website ko that u r using a browser not a code
+        soup = scrape.get_webpage_data(url)
         data = scrape.extract_many( soup, target=t, items=rep_items,title=title,price=price, link=link )
         if isinstance(data, list):
             if len(data) > 0:
