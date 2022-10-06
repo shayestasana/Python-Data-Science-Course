@@ -8,6 +8,8 @@ print(x[-9])
 #print(x[-10])  => String not found
 
 str="digipodium"
+#    0123456789
+# - 10987654321 
 print('str = ', str)
 
 print('str[0] = ', str[0])
